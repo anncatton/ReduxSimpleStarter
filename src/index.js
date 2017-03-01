@@ -41,7 +41,6 @@ class App extends Component<void, Props, State> {
   }
   render() {
     const { videos, selectedVideo } = this.state
-    console.log(videos)
     return (
       <div>
         <SearchBar />
